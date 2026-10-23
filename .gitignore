@@ -1,0 +1,67 @@
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+
+# ── Virtual environments ──────────────────────────────────────────────────────
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# ── Distribution / packaging ──────────────────────────────────────────────────
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ── Streamlit ─────────────────────────────────────────────────────────────────
+.streamlit/secrets.toml
+streamlit_*.log
+
+# ── Secrets & API keys ────────────────────────────────────────────────────────
+.env
+.env.*
+secrets.toml
+*.key
+*.pem
+
+# ── Jupyter ───────────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb
+
+# ── OS files ──────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Editor & IDE ──────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ── Backups & test artefacts ──────────────────────────────────────────────────
+*_BACKUP.py
+_check_syntax.py
+recapture.py
+capture_screenshots.py
+insert_screenshots.py
+insert_ss9.py
+
+# ── Large/unrelated project files (not part of Data Guardian) ─────────────────
+research_analytics_complete_backup.zip
+research_analytics_complete_project.zip
+research_analytics/
+MP_Budget_2026_27_Dashboard_Data*.csv
+Budget_Analysis_2026-27_Madhya_Pradesh*.pdf
+restaurant-food-safety-dashboard.html
+ai-research-analyst-project-summary.html
+test_data.*
+img_*.png
+screenshots/
